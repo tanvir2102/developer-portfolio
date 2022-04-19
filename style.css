@@ -11,7 +11,11 @@ h1 {
     font-size: 40px;
 }
 
-section {
+h2 {
+    font-size: 30px;
+}
+
+.flexible-container {
     display: flex;
     margin-bottom: 100px;
 }
@@ -43,4 +47,38 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    background-size: 50px;
+}
+
+.comic-ref {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 30px 1px gray;
+
+
+}
+
+.power {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 80px;
+}
+
+#border-color1 {
+    border-left: 7px solid;
+    border-image: linear-gradient(black, red);
+    border-image-slice: 1;
+}
+
+#border-color2 {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(44, 85, 223), rgb(105, 7, 7));
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
